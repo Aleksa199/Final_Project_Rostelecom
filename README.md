@@ -10,14 +10,6 @@
 ### [чек-лист/тест-кейсы/баг-репорты] (https://1drv.ms/x/s!AnaAV_LAg1cyaVIeiQDqV8YNuSA?e=uLaEDT)
 ### Тесты настроены на запуск через Run! 
 
-### Окружение: 
-MacOS Monterey Version 12.5/ Chrome Version 108.0.5359.98 (Official Build) (arm64)   
-Функция browser.find_element(locator).clear() почему-то не работает!   
-Использована комбинация:   
-.send_keys(Keys.COMMAND, 'a')   
-.send_keys(Keys.DELETE)   
-Для корректной работы в Windows среде необходима замена COMMAND на CONTROL
-
 ---------------------
 ### Папка tests: 
 test_negative_auth_page - тестируем негативные сценарии страницы авторизации   
